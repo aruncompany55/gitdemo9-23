@@ -1,0 +1,21 @@
+
+task1. To delete all local tags in one command
+git tag -l | xargs git tag -d
+
+
+
+
+
+
+task-3
+git tag -l | xargs git push origin --delete
+
+
+To https://github.com/aruncompany55/july-cloths2023.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/aruncompany55/july-cloths2023.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
